@@ -23,12 +23,12 @@ public class AudioMenu : MonoBehaviour
         // Idee: Audio-Source
 
         // Spiele die Audio-Source
-        myAudioSource.Play();
+        FindAnyObjectByType<AudioManager>().Play("Sound 1");
     }
 
     public void PauseAudio()
     {
-        myAudioSource.Pause();
+        FindAnyObjectByType<AudioManager>().Pause("Sound 1");
     }
 
     public void ResetAudio()
@@ -36,30 +36,18 @@ public class AudioMenu : MonoBehaviour
         myAudioSource.Stop();
     }
 
-    public void TogglePlayPauseAudio()
+    public void TogglePlayPause()
     {
         if (myAudioSource.isPlaying)
         {
-            PauseAudio();
-        }
-        else
-        {
-            PlayAudio();
-        }
-    }
-
-    public void Update()
-    {
-        // Ändere den Button-Text
-        // abhängig vom Zustand dre AudioSource
-        if (myAudioSource.isPlaying)
-        {
+            FindAnyObjectByType<AudioManager>().Pause("Sound 1");
             playPauseButtonText.SetText("Play");
         }
         else
         {
+            FindAnyObjectByType<AudioManager>().Play("Sound 1");
             playPauseButtonText.SetText("Pause");
+
         }
     }
-
 }
