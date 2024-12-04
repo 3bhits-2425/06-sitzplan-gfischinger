@@ -20,6 +20,16 @@ public class RoomManager : MonoBehaviour
 
                 //Tische platzieren
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
+
+                // Stüle platzieren
+                Vector3 leftChairPosition = tablePosition + new Vector3(1, 0, 1);  // Adjust X offset for left chair
+                Vector3 rightChairPosition = tablePosition + new Vector3(-1, 0, 1);  // Adjust X offset for right chair
+
+                // Instantiate chairs
+                Instantiate(chairPrefab, leftChairPosition, Quaternion.identity, transform);
+                Instantiate(chairPrefab, rightChairPosition, Quaternion.identity, transform);
+
+
             }
 
             

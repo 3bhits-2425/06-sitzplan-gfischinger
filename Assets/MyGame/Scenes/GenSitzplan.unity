@@ -183,7 +183,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -208,70 +208,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404282209}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: 0.10192446, y: 0, z: 0, w: 0.99479216}
+  m_LocalPosition: {x: 6.56, y: 7.93, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1314473997
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 118435913473423545, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_Name
-      value: Tisch
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7192663919407498567, guid: b2221456dea2bb846877671d1186e606, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b2221456dea2bb846877671d1186e606, type: 3}
+  m_LocalEulerAnglesHint: {x: 11.7, y: 0, z: 0}
 --- !u!1 &2105251885
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,16 +260,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tableLayout: {fileID: 11400000, guid: 54b58e9596f96004d8af06ddfa95efd6, type: 2}
-  students:
-  - {fileID: 11400000, guid: 1a61e25139565344385d8706c73ae8d8, type: 2}
-  - {fileID: 11400000, guid: 1a61e25139565344385d8706c73ae8d8, type: 2}
-  - {fileID: 11400000, guid: 1a61e25139565344385d8706c73ae8d8, type: 2}
-  tablePrefab: {fileID: 118435913473423545, guid: b2221456dea2bb846877671d1186e606, type: 3}
-  chairPrefab: {fileID: 4081745033320149689, guid: fb89d81b879c0a54fb7f6c8a9f498090, type: 3}
+  students: []
+  tablePrefab: {fileID: 1754564071243837234, guid: 3849a1e5e7e8d0d488101e0bb0617dfb, type: 3}
+  chairPrefab: {fileID: 8936229639387055038, guid: 4a916ebd74fe6dc4e83dfffbf036a436, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 404282212}
   - {fileID: 2105251886}
-  - {fileID: 1314473997}
