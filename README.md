@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/45d826d8-21c6-44f8-b365-2d5bc72a16d3)# 06-sitzplan-gfischinger
+# 06-sitzplan-gfischinger
 Ziel:
 Das Ziel dieses Projekts ist es, den Sitzplan unserer Schulklasse realistisch in Unity nachzubauen.
 Dabei wird die Anordnung der Sitzplätze, Tische und deren Positionen möglichst genau wie im Klassenraum umgesetzt.
