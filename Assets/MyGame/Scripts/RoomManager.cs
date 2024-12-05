@@ -14,7 +14,7 @@ public class RoomManager : MonoBehaviour
     {
         for(int row = 0; row < tableLayout.rows; row++)
         {
-            for(int col = 0; col  < tableLayout; col++)
+            for(int col = 0; col < tableLayout.columns; col++)
             {
                 Vector3 tablePosition = new Vector3(col * tableLayout.tableSpacing, 0, row * tableLayout.tableSpacing);
 
