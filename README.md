@@ -7,4 +7,6 @@ Dabei wird die Anordnung der Sitzplätze, Tische und deren Positionen möglichst
 
 https://github.com/user-attachments/assets/23ea86ef-da22-45c9-88ea-d9fbac67f36f
 
-
+Lessons Learned:
+3D objekte erstellen und nutzen
+Besseres verständnis von Transform und Vector3

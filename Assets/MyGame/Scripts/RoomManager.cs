@@ -18,16 +18,16 @@ public class RoomManager : MonoBehaviour
             {
                 Vector3 tablePosition = new Vector3(col * tableLayout.tableSpacing, 0, row * tableLayout.tableSpacing);
 
-                //Tische platzieren
+                // spawn tables
                 GameObject table = Instantiate(tablePrefab, tablePosition, Quaternion.identity, transform);
 
-                // Stüle platzieren
-                Vector3 leftChairPosition = tablePosition + new Vector3(1, 0, 1);  // Adjust X offset for left chair
-                Vector3 rightChairPosition = tablePosition + new Vector3(-1, 0, 1);  // Adjust X offset for right chair
+                // spawn chairs
+                Transform posLeft = table.transform.Find("ChairPos1");
+                Transform posRight = table.transform.Find("ChairPos2");
 
                 // Instantiate chairs
-                Instantiate(chairPrefab, leftChairPosition, Quaternion.identity, transform);
-                Instantiate(chairPrefab, rightChairPosition, Quaternion.identity, transform);
+                Instantiate(chairPrefab, posLeft.position, Quaternion.Euler(0,180,0), transform);
+                Instantiate(chairPrefab, posRight.position, Quaternion.Euler(0, 180, 0), transform);
 
 
             }
