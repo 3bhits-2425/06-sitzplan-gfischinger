@@ -3,7 +3,10 @@ guid: f8938265c4e80424db62a6e50f9c1876
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - tableLayout: {fileID: 11400000, guid: 54b58e9596f96004d8af06ddfa95efd6, type: 2}
+  - tablePrefab: {fileID: 1754564071243837234, guid: 3849a1e5e7e8d0d488101e0bb0617dfb, type: 3}
+  - chairPrefab: {fileID: 2038074328970945561, guid: 410c3cb213eae4e4e916924dcbb2e412, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

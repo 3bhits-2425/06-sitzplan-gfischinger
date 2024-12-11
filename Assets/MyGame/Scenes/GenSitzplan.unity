@@ -260,7 +260,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tableLayout: {fileID: 11400000, guid: 54b58e9596f96004d8af06ddfa95efd6, type: 2}
-  students: []
+  students:
+  - {fileID: 11400000, guid: 7a892b455b84215448b6990a129a7235, type: 2}
+  - {fileID: 11400000, guid: 7a892b455b84215448b6990a129a7235, type: 2}
+  - {fileID: 11400000, guid: 7a892b455b84215448b6990a129a7235, type: 2}
+  - {fileID: 11400000, guid: 7a892b455b84215448b6990a129a7235, type: 2}
+  - {fileID: 11400000, guid: 7a892b455b84215448b6990a129a7235, type: 2}
+  - {fileID: 11400000, guid: 5fa166c54a85df3438a7c00787f8d447, type: 2}
+  - {fileID: 11400000, guid: 462fb2703e32b5042bd9db2c4f65af19, type: 2}
+  - {fileID: 11400000, guid: 18a4654708260a640a63325e4079074f, type: 2}
+  - {fileID: 11400000, guid: 46904d14bda350346bce69a8a5d6091d, type: 2}
+  - {fileID: 11400000, guid: b66458d177112f243aa7a00d701874ca, type: 2}
+  - {fileID: 11400000, guid: 0ff7016adb2eeaf4a8127aef49d865a4, type: 2}
+  - {fileID: 11400000, guid: 8ada89e9efe40ff4284e2c50bd5527e7, type: 2}
+  - {fileID: 11400000, guid: 3865c7de3a7a43e48a345bfff38d1f3b, type: 2}
+  - {fileID: 11400000, guid: cbb140037c6130542ad1f37c5be1c862, type: 2}
+  - {fileID: 11400000, guid: 29ab244da99d2164f9350fa38ea1628e, type: 2}
+  - {fileID: 11400000, guid: 300e329bdc64bc045a7254322c400cb7, type: 2}
+  - {fileID: 11400000, guid: c96d4f101245041429d3774a35bdd4dc, type: 2}
+  - {fileID: 11400000, guid: bb6e9e02224ddd4499734d49ac2c17c8, type: 2}
+  - {fileID: 11400000, guid: 0dd6e6560a0e4dc4888391453e015dea, type: 2}
+  - {fileID: 11400000, guid: b4a7aff6f08d8a946bac2cd06b07165a, type: 2}
+  - {fileID: 11400000, guid: 6ec949084720230408efad30451da1a3, type: 2}
+  - {fileID: 11400000, guid: e77bc811af27b624b916f12d7329fb1e, type: 2}
+  - {fileID: 11400000, guid: 46d37574f61f7f548ba60813fd500474, type: 2}
+  - {fileID: 11400000, guid: c88c40a6e4fbb0d4c990d6002d1fd067, type: 2}
   tablePrefab: {fileID: 1754564071243837234, guid: 3849a1e5e7e8d0d488101e0bb0617dfb, type: 3}
   chairPrefab: {fileID: 2038074328970945561, guid: 410c3cb213eae4e4e916924dcbb2e412, type: 3}
 --- !u!1660057539 &9223372036854775807
